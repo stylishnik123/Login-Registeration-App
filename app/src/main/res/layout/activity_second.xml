@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+
+    android:orientation= "vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/nikhil"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/pPhoto"
+            android:layout_marginRight="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nikhil Wadhwa"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:id="@+id/nameText"
+            android:layout_toRightOf="@+id/pPhoto"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nikhilwadhwa887@gmail.com"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_gravity="center"
+            android:id="@+id/emailText"
+            android:layout_toRightOf="@+id/pPhoto"
+            android:layout_below="@+id/nameText"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+918053954834"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/PhoneNumberText"
+            android:layout_toRightOf="@+id/pPhoto"
+            android:layout_below="@+id/emailText"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="about me"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:id="@+id/educationButton"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="work experience"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/workingButton"
+            />
+    </LinearLayout>
+</LinearLayout>
